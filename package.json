@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@cloudinary/react": "^1.13.1",
+    "@cloudinary/url-gen": "^1.21.0",
+    "react-datepicker": "^6.9.0",
+    "react-router-dom": "^6.26.1",
+    "recharts": "^2.12.7"
+  }
+}

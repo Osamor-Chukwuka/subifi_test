@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL */
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    --b: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #015693;
+    -webkit-mask:
+        repeating-conic-gradient(#0000 0deg, #000 1deg 70deg, #0000 71deg 90deg),
+        radial-gradient(farthest-side, #0000 calc(100% - var(--b) - 1px), #000 calc(100% - var(--b)));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation: l5 1s infinite;
+}
+
+@keyframes l5 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+/* LOGIN PAGE */
+
+.hrDiv {
+    width: 60vh;
+}
+
+.loginForm .textinput {
+    width: 60vh;
+}
+
+.check {
+    width: 3vh;
+    height: 3vh;
+}
+
+
+.rememberLabel {
+    font-size: 15px;
+}
+
+.forgotPassword {
+    color: #015693;
+    font-size: 15px;
+}
+
+.submitDiv button {
+    width: 60vh;
+    background-color: #015693;
+    color: white;
+    font: bolder;
+}
+
+.rayImageLogin img {
+    /* height: 50vh; */
+}
+
+
+
+/* DASHBOARD */
+.leftNav {
+    /* width: 30vh; */
+    height: 100vh;
+}
+
+.subifiLeftNav {
+    color: #454545;
+}
+
+.subifiInfoLeftNav {
+    color: #6D6D6D;
+}
+
+.dashboardNavTextDiv {
+    background-color: #015693;
+}
+
+.subscribtionLogo {
+    width: 18.33px;
+    height: 16.5;
+}
+
+#settingDropDown {
+    display: none;
+}
+
+.logoutSection {
+    padding-top: 100%;
+}
+
+.logoutSubSection {
+    padding-left: 5.5vh;
+}
+
+.logoutText {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logoutIcon {
+    width: 16.5px;
+    height: 16.5px;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+.topNav {
+    width: 100vh;
+    /* height: 100vh; */
+}
+
+.adminName {
+    padding-left: 47%;
+}
+
+.notificationDiv {
+    width: 27vh;
+}
+
+
+.notificationIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.contentBodyDiv {
+    /* height: 100vh; */
+    background-color: #f6f6f6;
+}
+
+.dashboardText {
+    /* size: 28px; */
+
+}
+
+.jobsCreatedCard,
+.assignmentCreatedCard {
+    width: 45%;
+    /**If the horizontal screen for the dashboard page becomes scrollable, check this line**/
+}
+
+.chartDate {
+    color: #015693;
+}
+
+
+
+/* Assignment Page */
+.miniAssignmentTable {}
+
+.viewallText {
+    color: #015693;
+}
+
+.assignmentText {
+    font-weight: 500;
+    font-size: 24px;
+    color: #454545;
+}
+
+.miniAssignmentThead {
+    color: #454545;
+}
+
+.ongoing {
+    background-color: #F8924F1A;
+    color: #EF7627;
+}
+
+.disputed {
+    background-color: #efd8d5;
+    color: #EB4335;
+}
+
+.completed {
+    background-color: #8913891a;
+    color: #800080;
+}
+
+.paginationButtonSelected {
+    background-color: #015693;
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.filterIcon {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+/* Subscription Page */
+.checkMarkIcon {
+    width: 21px;
+    height: 21px;
+}
+
+.updateButton {
+    border: 2px solid #015693;
+    color: #015693;
+}
+
+.updateButton:hover {
+    background-color: #015693;
+    color: white;
+}
+
+.subscriptionCardTitle {
+    color: #015693;
+}
+
+.updatePlanDiv {
+    height: 90vh;
+    /* margin-top: 90px; */
+    /* margin-right: 3%; */
+}
+
+.plansIcon {
+    width: 27px;
+    height: 25px;
+    background-color: #DFF0FF;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.changePlanFormerIcon {
+    width: 21px;
+    height: 19px;
+}
+
+.changePlanIconText {
+    font-size: 13px;
+    color: #015693;
+}
+
+.saveNewIconChangeBtn {
+    background-color: #015693;
+}
+
+#settingDropDownSubscriptionPage {
+    display: none;
+}
+
+.updatePlanForm {
+    display: none;
+}
+
+
+
+
+/* LookUps Page */
+
+.contentBodyDivLookup {
+    min-height: 100vh;
+    background-color: #f6f6f6;
+    /* width: 100; */
+    /* min-width: 100%; */
+}
+
+.lookupsContiner {
+    height: 60%;
+    width: 95%;
+    /**If the Lookups page scrolls horizontally, check this line**/
+
+}
+
+.lookupCardHr {
+    /* width: 133vh; */
+}
+
+.lookupContainerListTittleDiv {
+    width: 40%;
+}
+
+.lookupContainerListExpandIcon {
+    /* width: 30%; */
+}
+
+.lookupActionIconDiv {
+    /* width: 20vh;
+    /* padding-left: 78%; */
+    /* margin-left: 75vh; */
+    display: flex;
+    justify-content: end;
+    justify-self: end;
+    text-align: end;
+    align-items: center;
+    width: 100%;
+}
+
+.addIcon {
+    color: #015693;
+}
+
+.saveBtn {
+    color: #015693;
+}
+
+
+.omoo {
+    width: 100%;
+}
+
+
+
+/* Assignment Detail Page */
+.assignmentDate {
+    color: #015693;
+}
+
+.contentBodyDivAssignmentDetails {
+    /* border: 2px solid red; */
+}
+
+.clientLogo {
+    width: 97.1px;
+    height: 96px;
+}
+
+.starRating {
+    width: 126px;
+    height: 22px;
+}
+
+
+
+/* Dispute Page */
