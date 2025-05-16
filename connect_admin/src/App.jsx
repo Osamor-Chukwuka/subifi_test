@@ -9,6 +9,7 @@ import Lookups from './screens/Lookups';
 import AssignmentDetails from './screens/AssignmentDetails';
 import DisputePage from './screens/DisputePage';
 import DisputeHistory from './screens/DisputeHistory';
+import 'react-datepicker/dist/react-datepicker.css';
 
 
 function App() {
